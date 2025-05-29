@@ -1,0 +1,148 @@
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    color: #52525A;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+  }
+  
+  .reviewers-Section {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: flex-start right;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    left: 1.5rem;
+    flex: 1 1 30%; /* Takes up 60% of the width */
+  }
+  
+  .reviewers-content {
+    flex: 1 1 75%;
+    align-items: right;
+  }
+
+.reviewers-content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.1rem;
+    color: #5d5d64;
+
+    
+  }
+
+  .icon-title {
+    align-items: left;
+    gap: 0.1rem;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .icon-title img {
+    width: 50px;
+    height: 50px;
+  }
+
+    .icon-title h2 {
+        font-size: 39px;
+        font-weight: 700;
+        margin: 0.5rem 0;
+        color: #111827;
+    }
+  
+  .star-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .checklist {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .checklist li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .checklist img {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .reviews {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    flex: 1 1 55%; /* Takes up 40% of the width */
+    max-width: 1200px; /* Optional: limit width of reviews section */
+    padding: 1.5rem;
+}
+  
+  .review-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 1rem;
+    width: 100%; /* Full width of .reviews (40%) */
+    max-width: 300px; /* Optional: limit card width */
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: auto;
+    position: relative;
+    right: 3rem;
+}
+
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 30px;
+    object-fit: contain;
+    width: 100px;
+    align-items: left;
+  }
+  
+  .stars {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    width: 100px;
+    justify-content: flex-end;
+  }
+  
+  .stars img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .review-card h4 {
+  margin: 0.8rem 0 0.2rem;
+  font-size: 1.2rem;       /* Increase from 1rem */
+  font-weight: 700;        /* Make it bold */
+  color: #111;
+}
+
+.review-card p {
+  margin: 0;
+  font-size: 1.05rem;      /* Slightly bigger than before */
+  font-weight: 100;        /* Semi-bold */
+  color: #52525A;
+}
+  
